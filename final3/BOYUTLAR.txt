@@ -1,18 +1,21 @@
-YAGAMI VİTRİN — AYRI MESHY PARÇALARI, ÇAKIŞMASIZ (STL mm; toplam yükseklik ~240 mm)
+JAPAN SHOP — ONARILMIS STL SETI (mm)
 
-dosya                           genişlik(x)  derinlik(y)  yükseklik(z)    üçgen
-01_tabla.stl                          260.4        145.3          22.5     7595
-02_bina.stl                           256.3         93.6         222.1    77132
-03_ficilar.stl                         68.6         23.3          24.5   102213
-03_ficilar_ust.stl                     68.6         23.3          24.5   102213
-04_sol_saksi_bambu.stl                 39.0         74.1          94.7   102914
-05_sag_saksi_akcaagac.stl              53.0         74.1          94.0   103815
-06_fener_sol_1.stl                     19.2         19.0          45.9   100668
-07_fener_sol_2.stl                     13.0         12.9          36.5   100313
-08_fener_sag.stl                       19.1         19.1          42.3   101692
-09_isikli_tabela.stl                   28.6         28.4          32.9    93129
-10_menu_standi.stl                     24.8         20.5          55.7    96322
-11_baba_sari.stl                       41.5         12.4          26.4    98613
+dosya                                   X          Y          Z      ucgen
+01_tabla.stl                      260.432    145.340     18.000        164
+02_bina.stl                       227.757     84.549    222.034      41514
+03_ficilar.stl                     68.592     23.290     24.481     100248
+03_ficilar_ust.stl                 68.592     23.290     24.481     100248
+04_sol_saksi_bambu.stl             38.967     74.094     88.803     979250
+05_sag_saksi_akcaagac.stl          52.999     74.055     93.994     890888
+06_fener_sol_1.stl                 19.164     19.029     45.950      99924
+07_fener_sol_2.stl                 13.001     12.912     36.507      99720
+08_fener_sag.stl                   19.111     19.092     42.286     100920
+09_isikli_tabela.stl               28.563     28.405     32.899      90724
+10_menu_standi.stl                 24.798     20.459     55.674      92852
+11_baba_sari.stl                   41.493     12.394     26.358      97800
 
-Parçalar ortak koordinat sistemindedir ve birbirinin içine girmez.
-Eksenler: +X sağ, -Y ön (cephe), +Z yukarı.
+Eksenler: +X sag, -Y on cephe, +Z yukari.
+Tabla: 18 mm ust seviye, 8.21 mm yol seviyesi; basamak Y=-54 mm.
+Saksilar, alt ficilar ve menu standi 18 mm seviyesine oturtuldu.
+Her STL tek bagli, kapali ve pozitif hacimli govdedir.
+Parcalar montaj koordinatlarindadir; ayri baski icin yataga yerlestirilmelidir.

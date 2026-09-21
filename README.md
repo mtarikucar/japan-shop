@@ -1,15 +1,25 @@
 # Japan Shop
 
-Japon dükkânı maketinin son STL seti: `final3/` klasöründeki 12 parça.
+Japon dükkânı maketinin onarılmış 12 STL parçası `final3/` klasöründedir. Birimler milimetre; toplam yükseklik yaklaşık 240 mm. +X sağ, -Y ön cephe, +Z yukarı.
 
-STL dosyaları milimetre ölçeğindedir. Toplam model yüksekliği yaklaşık 240 mm’dir. Parça ölçüleri [BOYUTLAR.txt](final3/BOYUTLAR.txt) dosyasında yer alır.
+- [Blender dosyası](final3/japan_shop_repaired.blend)
+- [Ölçüler](final3/BOYUTLAR.txt)
+- [Onarım ve kontrol raporu](validation/REPAIR_REPORT.md)
 
-Parçalar ortak koordinat sistemindedir: +X sağ, -Y ön cephe, +Z yukarı.
+## Güncel STL önizlemesi
 
-## Önizleme
+Bunlar onarılmış geometriden Blender'da alınan görüntülerdir. Renkler parçaları ayırt etmek içindir; STL dosyaları doku içermez.
 
-![Model](final3/birlesik_34.png)
+![Onarılmış model](final3/onarilmis_on.png)
+![Arka görünüm](final3/onarilmis_arka.png)
+![Yeniden oluşturulan tabla](final3/onarilmis_tabla.png)
 
-![Ön cephe](final3/birlesik_on.png)
+Önceki dokulu referans görselleri `birlesik_34.png`, `birlesik_on.png` ve `menu_yakin.png` adlarıyla korunmuştur. Eski STL sürümü Git geçmişindeki `39bd9b4` commit'indedir.
 
-![Menü standı](final3/menu_yakin.png)
+## Kontrolü tekrar çalıştırma
+
+Python ortamında `numpy`, `trimesh` ve `scipy` kurulu olmalıdır:
+
+```sh
+python validation/validate_meshes.py
+```
