@@ -1,0 +1,10 @@
+/*
+!/.gitignore
+!/README.md
+!/final3/
+/final3/*
+!/final3/*.stl
+!/final3/BOYUTLAR.txt
+!/final3/birlesik_34.png
+!/final3/birlesik_on.png
+!/final3/menu_yakin.png
