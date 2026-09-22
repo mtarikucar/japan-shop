@@ -30,6 +30,6 @@ if __name__=='__main__':
  for c,p,a in pairs:
   r={'child':c,'support':p,'axis':a,'contact':gaps(meshes[c],meshes[p],a)};records.append(r);print(json.dumps(r),flush=True)
  if len(sys.argv)>2:Path(sys.argv[2]).write_text(json.dumps(records,indent=2))
- if src.parent.name=='final5':
+ if src.parent.name in ('final5','final6'):
   assert all(r['contact'] and r['contact']['contact_samples_within_0_025_mm']>=3 for r in records),[r for r in records if not r['contact'] or r['contact']['contact_samples_within_0_025_mm']<3]
   print('PASS: measured seating contacts on every required connection')

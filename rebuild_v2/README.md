@@ -38,3 +38,15 @@ Bu aşamada yeni API üretimi yapılmaz. `final3` saksıları ve `final4` parça
 Geçici UV verileri `fit_cache/` altında yerelde tutulur. Büyük Blender dosyası GitHub sürüm ZIP'inde bulunur; tek dosya boyutu nedeniyle Git deposuna ayrıca eklenmez. Tüm STL parçaları depodadır.
 
 Kontrol, parça başına sağlam mesh yanında gerçek katıların kesişim hacmini ve gerekli bağlantılardaki temas örneklerini de kapsar. Dışa aktarım sırasında birleşim kenarlarındaki 0,0001 mm'den yakın noktalar gerektiğinde birleştirilir. İşaretli ışın mesafeleri kıvrımlı/çıkıntılı yüzeylerde tek başına kesişme ölçüsü değildir; katı kesişim kontrolü ayrıca yapılır.
+
+## final6: pencereli üst katın 24 mm kısaltılması
+
+Yeni üretim yapılmaz; final5 dosyaları kullanılır. Pencere katı (Z 198,9–240) yalnızca ~41 mm olduğu için 24 mm tek parça kesilmez. Kesiti dört cephede değişmeyen bantlardan (denizlik altı duvar, pencere camı) alınır; denizlik/kasa ve korniş bantları hafifçe kısalır, çatı kenarı yalnızca aşağı kayar. Yalnızca Z koordinatı tek yönlü artan bir eşlemeyle taşınır; üçgen yapısı ve UV'ler değişmez. Eşleme `shorten_upper_floor.py` içindeki `KNOTS` tablosundadır.
+
+1. `python rebuild_v2/scripts/shorten_upper_floor.py`
+2. `blender -b final5/japan_shop_final.blend --python rebuild_v2/scripts/shorten_scene.py`
+3. `python rebuild_v2/scripts/validate_final.py final6`
+4. `python rebuild_v2/scripts/check_assembly_solids.py final6`
+5. `python rebuild_v2/scripts/check_contacts.py final6/stl_montaj final6/temas_olcumleri.json`
+6. `blender -b final6/japan_shop_final.blend --python rebuild_v2/scripts/verify_scene.py`
+7. Kayıtlı final6 sahnesiyle `render_scene.py` ve `catalog.py` çalıştırılır; `python rebuild_v2/scripts/package.py final6` hash listesini ve yerel ZIP paketini çıkarır.

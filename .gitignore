@@ -49,3 +49,14 @@
 !/final5/stl_baski/*.stl
 !/final5/stl_montaj/*.stl
 !/rebuild_v2/reports/fit/
+
+!/final6/
+/final6/*
+!/final6/*.md
+!/final6/*.json
+!/final6/*.png
+!/final6/*.sha256
+!/final6/stl_baski/
+!/final6/stl_montaj/
+!/final6/stl_baski/*.stl
+!/final6/stl_montaj/*.stl

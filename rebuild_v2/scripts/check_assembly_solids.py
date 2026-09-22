@@ -1,7 +1,7 @@
 """Check inter-part penetration volume, separately from each part's topology."""
 from pathlib import Path
-import trimesh,numpy as np,manifold3d as mf,json
-root=Path(__file__).resolve().parents[2];out=root/'final5'
+import trimesh,numpy as np,manifold3d as mf,json,sys
+root=Path(__file__).resolve().parents[2];out=root/(sys.argv[1] if len(sys.argv)>1 else 'final5')
 items=[]
 for p in sorted((out/'stl_montaj').glob('*.stl')):
  m=trimesh.load_mesh(p);s=mf.Manifold(mf.Mesh(np.asarray(m.vertices,dtype=np.float32),np.asarray(m.faces,dtype=np.uint32)));assert s.status()==mf.Error.NoError,p.name;items.append((p.stem,m,s))

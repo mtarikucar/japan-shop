@@ -17,7 +17,7 @@ for p in sorted((out/'stl_montaj').glob('*.stl')):
  assert np.allclose(a.triangles,n.triangles,atol=5e-5),q
  assert abs(n.bounds[0,2])<5e-5,q
  assert n.is_winding_consistent,q
-expected=28 if out.name=='final5' else 26
+expected=28 if out.name in ('final5','final6') else 26
 assert len(records)==expected,len(records)
 (out/'kontrol_raporu.json').write_text(json.dumps(records,indent=2))
 print('PASS:',expected,'assembly STL files and translated print copies')

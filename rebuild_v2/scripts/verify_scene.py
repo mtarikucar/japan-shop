@@ -18,5 +18,5 @@ for path in sorted((Path(bpy.data.filepath).parent/'stl_montaj').glob('*.stl')):
     assert signature(v[f])==signature(tri),path.name
     results[path.name]={'matches_stl':True,'triangles':n,'sha256':hashlib.sha256(data).hexdigest()}
     print(path.name,'scene matches STL')
-assert len([o for o in bpy.context.scene.objects if o.type=='MESH'])==(28 if Path(bpy.data.filepath).parent.name=='final5' else 26)
+assert len([o for o in bpy.context.scene.objects if o.type=='MESH'])==(28 if Path(bpy.data.filepath).parent.name in ('final5','final6') else 26)
 (Path(bpy.data.filepath).parent/'sahne_kontrolu.json').write_text(json.dumps(results,indent=2))
