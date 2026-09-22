@@ -1,0 +1,142 @@
+{
+  "01_tabla.stl": {
+    "matches_stl": true,
+    "triangles": 155142,
+    "sha256": "f92859784d783dfb94290256548f4871f2b277a56802f41a2e21584fc6b04789"
+  },
+  "02_bina.stl": {
+    "matches_stl": true,
+    "triangles": 285594,
+    "sha256": "349a23bc1302ed1ecc3edf1fc3c83d894e8a345ee608fa8b3e78eef0d61963cb"
+  },
+  "03_esik.stl": {
+    "matches_stl": true,
+    "triangles": 31296,
+    "sha256": "b0040338bb20f80d380d7ff04f9d7be16673e18b114a8cb8555d5b27ab431bcc"
+  },
+  "04_yagami_tabela.stl": {
+    "matches_stl": true,
+    "triangles": 199938,
+    "sha256": "3ddf9267b7ad09951be6391b93fdfc9c5a4199de08276686990cb8fa2279befb"
+  },
+  "05_dalga_perde.stl": {
+    "matches_stl": true,
+    "triangles": 16214,
+    "sha256": "09654aa7a254a98bbfa05e7b8dd06ffc11af7e71578cb7f754bbbc10d7b0d773"
+  },
+  "06_fener_1.stl": {
+    "matches_stl": true,
+    "triangles": 99208,
+    "sha256": "0c329f587cec4445f819cde4fc24fb44c8c030e9ccfedf60ffefa366e99a7521"
+  },
+  "07_fener_2.stl": {
+    "matches_stl": true,
+    "triangles": 103076,
+    "sha256": "f05c484b06fc9acd400f7e3d4a59033c900f0b4ff2744f4ad3b94c694d5b9145"
+  },
+  "08_fener_3.stl": {
+    "matches_stl": true,
+    "triangles": 100604,
+    "sha256": "d302494f1bc313b62ef9306259ec4e35f4af6d47ee35fb2714ba4100b4c1121f"
+  },
+  "09_fener_4.stl": {
+    "matches_stl": true,
+    "triangles": 97686,
+    "sha256": "f3de99abe4a7a66d7a445484fb07468b4c53152baa338c49c9256ec862568c95"
+  },
+  "10_kup_tabela.stl": {
+    "matches_stl": true,
+    "triangles": 3542,
+    "sha256": "fe7ee8d114083fd68b96f0adfae3ec1ad6a427c89763b3866df2eb4486c1baa2"
+  },
+  "11_spot_1.stl": {
+    "matches_stl": true,
+    "triangles": 844,
+    "sha256": "704c7abb7c48f30bc6868ffe41d83b4f7b00849e532b58d7742296337edbae08"
+  },
+  "12_spot_2.stl": {
+    "matches_stl": true,
+    "triangles": 846,
+    "sha256": "38b07a53150d7a2b04ba78b570e167cc426cc3fe0919ac8cde1a0ed53976e904"
+  },
+  "13_spot_3.stl": {
+    "matches_stl": true,
+    "triangles": 838,
+    "sha256": "4c4ac2431a3f9ab5e9bc559bd22c61d62d293a77bfd02de89efbd7674962f071"
+  },
+  "14_menu_standi.stl": {
+    "matches_stl": true,
+    "triangles": 1328,
+    "sha256": "9f0f6b806dc49b082b0cffb42c0120b1d8d2e7eaaf3bc8fbfc95ce2a0f77fafe"
+  },
+  "15_fici_alt_1.stl": {
+    "matches_stl": true,
+    "triangles": 83968,
+    "sha256": "8a1089bd7a96185967aeb265ee342f7b940fcd5efb8ef15801459235a48bd2d7"
+  },
+  "16_fici_alt_2.stl": {
+    "matches_stl": true,
+    "triangles": 72202,
+    "sha256": "d61880e846fc5378f90c9a9f3bc6cbfe871c3a570fcdb140fffe949c6a2d030f"
+  },
+  "17_fici_alt_3.stl": {
+    "matches_stl": true,
+    "triangles": 72202,
+    "sha256": "f76817918c1f484acd02fb1213243703053e75d90e2869342b389e18b90f92a9"
+  },
+  "18_fici_alt_4.stl": {
+    "matches_stl": true,
+    "triangles": 83970,
+    "sha256": "75ecdad9f4de7dfb1bc01dbcf9d7275e74aca0f253759e74991a8a8b49ad5c91"
+  },
+  "19_fici_ust_1.stl": {
+    "matches_stl": true,
+    "triangles": 98380,
+    "sha256": "e0e5cb8b6128e2c35174e04bbb5d73b0170cb5f59318b58661ce689013315cd2"
+  },
+  "20_fici_ust_2.stl": {
+    "matches_stl": true,
+    "triangles": 97436,
+    "sha256": "061d557462040d767d1b8a53169c63c510e72b0d1e48ed14d84bbc7a408696c8"
+  },
+  "21_fici_ust_3.stl": {
+    "matches_stl": true,
+    "triangles": 92896,
+    "sha256": "434ee4da5872a3a285c3399ae38d191dce45ed166400a9dbae6564bc88d0194d"
+  },
+  "22_fici_ust_4.stl": {
+    "matches_stl": true,
+    "triangles": 98380,
+    "sha256": "024dcfd58a92f25bf34fe869de4f1a4c65b3130f4e4aab869792750f1f24347e"
+  },
+  "23_paspas_esik.stl": {
+    "matches_stl": true,
+    "triangles": 876,
+    "sha256": "53588011de4c788aca58c59c5b948cc67d633bc408b9c88ce0f9ab26ab6520ab"
+  },
+  "24_paspas_kaldirim.stl": {
+    "matches_stl": true,
+    "triangles": 5358,
+    "sha256": "fcdd111756c49d49787a9f2cf240ae356ba52ab7448d914bb7c668ad87436bd1"
+  },
+  "25_sari_baba.stl": {
+    "matches_stl": true,
+    "triangles": 580,
+    "sha256": "c9c96e070b9425f1803b1e1ecfbfa7f89857960b549bf32cee4dcc14dbfe9fcc"
+  },
+  "26_tabela_montaj_destegi.stl": {
+    "matches_stl": true,
+    "triangles": 101922,
+    "sha256": "a7c016787d650c8cbb72a062e52861ef79d246a7be986f8eab50c61ab81600a8"
+  },
+  "27_sol_saksi_bambu.stl": {
+    "matches_stl": true,
+    "triangles": 858166,
+    "sha256": "beef85c7ede1ce483bb22c54e2223f334215e916413ff7ede685799d271ead3d"
+  },
+  "28_sag_saksi_akcaagac.stl": {
+    "matches_stl": true,
+    "triangles": 855084,
+    "sha256": "5f29041d14f2f5b9d23dd730227ec6b166cb7a1a3a58ce2b13167d0c6693c2c0"
+  }
+}

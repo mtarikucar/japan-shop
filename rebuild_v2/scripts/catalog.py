@@ -10,4 +10,4 @@ for i,o in enumerate(obs):
  col=i%6;row=i//6;o.location=((col-2.5)*57,0,(4-row)*57+23)
  bpy.ops.object.text_add(location=((col-2.5)*57,-20,(4-row)*57-4),rotation=(math.pi/2,0,0));t=bpy.context.object;t.data.body=o.name;t.data.size=2.8;t.data.align_x='CENTER';t.data.extrude=0
 cam=s.camera;target=Vector((0,0,135));cam.location=(0,-650,245);cam.rotation_euler=(target-cam.location).to_track_quat('-Z','Y').to_euler();cam.data.ortho_scale=355
-s.render.resolution_x=1800;s.render.resolution_y=1500;s.cycles.samples=24;s.view_layers[0].material_override=None;s.render.filepath=str(root/'final4/parca_katalogu.png');bpy.ops.render.render(write_still=True)
+s.render.resolution_x=1800;s.render.resolution_y=1500;s.cycles.samples=24;s.view_layers[0].material_override=None;s.render.filepath=str(Path(bpy.data.filepath).parent/'parca_katalogu.png');bpy.ops.render.render(write_still=True)

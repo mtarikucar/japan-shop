@@ -37,3 +37,15 @@
 !/rebuild_v2/reports/scene_check.json
 /rebuild_v2/scripts/__pycache__/
 !/final4/*.sha256
+
+!/final5/
+/final5/*
+!/final5/*.md
+!/final5/*.json
+!/final5/*.png
+!/final5/*.sha256
+!/final5/stl_baski/
+!/final5/stl_montaj/
+!/final5/stl_baski/*.stl
+!/final5/stl_montaj/*.stl
+!/rebuild_v2/reports/fit/

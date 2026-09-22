@@ -1,0 +1,277 @@
+[
+  {
+    "child": "02",
+    "support": "03",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": 0.04877763396805079,
+      "median_gap_mm": 2.132001322043422,
+      "max_gap_mm": 212.12620396997818,
+      "samples": 26134
+    }
+  },
+  {
+    "child": "03",
+    "support": "01",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": -0.20295435947540952,
+      "median_gap_mm": -0.19133371907553087,
+      "max_gap_mm": -0.1565838874777068,
+      "samples": 31020
+    }
+  },
+  {
+    "child": "04",
+    "support": "26",
+    "axis": 1,
+    "contact": {
+      "min_gap_mm": -0.34428376783778525,
+      "median_gap_mm": -0.3439311981201172,
+      "max_gap_mm": 7.661620730339985,
+      "samples": 9777
+    }
+  },
+  {
+    "child": "05",
+    "support": "02",
+    "axis": 1,
+    "contact": {
+      "min_gap_mm": -8.813293796224826,
+      "median_gap_mm": -0.6347216837867435,
+      "max_gap_mm": -0.3027052166294837,
+      "samples": 5979
+    }
+  },
+  {
+    "child": "26",
+    "support": "02",
+    "axis": 1,
+    "contact": {
+      "min_gap_mm": -12.458181509450757,
+      "median_gap_mm": -3.6602997245304714,
+      "max_gap_mm": -0.8021568932108778,
+      "samples": 8248
+    }
+  },
+  {
+    "child": "10",
+    "support": "02",
+    "axis": 1,
+    "contact": {
+      "min_gap_mm": -14.73559290699658,
+      "median_gap_mm": -12.864118313923601,
+      "max_gap_mm": -1.803861958526344,
+      "samples": 736
+    }
+  },
+  {
+    "child": "14",
+    "support": "03",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": 0.0,
+      "median_gap_mm": 0.0,
+      "max_gap_mm": 55.04077825106749,
+      "samples": 1368
+    }
+  },
+  {
+    "child": "23",
+    "support": "03",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": 0.0,
+      "median_gap_mm": 0.0,
+      "max_gap_mm": 0.0,
+      "samples": 4560
+    }
+  },
+  {
+    "child": "24",
+    "support": "01",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": -0.2057325114020454,
+      "median_gap_mm": -0.1914834976196289,
+      "max_gap_mm": 0.098738841523895,
+      "samples": 6045
+    }
+  },
+  {
+    "child": "25",
+    "support": "01",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": -6.8322215556393004,
+      "median_gap_mm": -2.3333059617526963,
+      "max_gap_mm": -2.310928076774413,
+      "samples": 490
+    }
+  },
+  {
+    "child": "15",
+    "support": "03",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": 0.00419415585965055,
+      "median_gap_mm": 0.13378152499132234,
+      "max_gap_mm": 6.316746469740092,
+      "samples": 634
+    }
+  },
+  {
+    "child": "16",
+    "support": "03",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": 0.015555715939768788,
+      "median_gap_mm": 0.3262897352168288,
+      "max_gap_mm": 12.015209829278234,
+      "samples": 615
+    }
+  },
+  {
+    "child": "17",
+    "support": "03",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": 0.015555734911853136,
+      "median_gap_mm": 0.3262878818909094,
+      "max_gap_mm": 12.015194538448455,
+      "samples": 615
+    }
+  },
+  {
+    "child": "18",
+    "support": "03",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": 0.004194206261036726,
+      "median_gap_mm": 0.1337815618380347,
+      "max_gap_mm": 6.316730359306252,
+      "samples": 634
+    }
+  },
+  {
+    "child": "19",
+    "support": "15",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": -0.2259207869206321,
+      "median_gap_mm": 1.2345819759077372,
+      "max_gap_mm": 20.86418934796389,
+      "samples": 615
+    }
+  },
+  {
+    "child": "20",
+    "support": "16",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": -0.19193623734138754,
+      "median_gap_mm": 1.9356284677783862,
+      "max_gap_mm": 15.09943563176255,
+      "samples": 615
+    }
+  },
+  {
+    "child": "21",
+    "support": "17",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": -0.19837696276600525,
+      "median_gap_mm": 1.9463755953443957,
+      "max_gap_mm": 12.116724331632582,
+      "samples": 614
+    }
+  },
+  {
+    "child": "22",
+    "support": "18",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": -0.2259208133889885,
+      "median_gap_mm": 1.2345796477141988,
+      "max_gap_mm": 20.864167394061905,
+      "samples": 615
+    }
+  },
+  {
+    "child": "06",
+    "support": "26",
+    "axis": 1,
+    "contact": {
+      "min_gap_mm": 0.6082081207361671,
+      "median_gap_mm": 3.0146033355470605,
+      "max_gap_mm": 6.5084106950657485,
+      "samples": 208
+    }
+  },
+  {
+    "child": "07",
+    "support": "26",
+    "axis": 1,
+    "contact": {
+      "min_gap_mm": 0.6764636779948265,
+      "median_gap_mm": 3.0855398736391413,
+      "max_gap_mm": 7.269688477487776,
+      "samples": 210
+    }
+  },
+  {
+    "child": "08",
+    "support": "26",
+    "axis": 1,
+    "contact": {
+      "min_gap_mm": 0.414777407880349,
+      "median_gap_mm": 3.031974561143156,
+      "max_gap_mm": 6.365501592762467,
+      "samples": 214
+    }
+  },
+  {
+    "child": "09",
+    "support": "26",
+    "axis": 1,
+    "contact": {
+      "min_gap_mm": 0.39463202615513104,
+      "median_gap_mm": 3.0923730197750574,
+      "max_gap_mm": 6.955543437950663,
+      "samples": 200
+    }
+  },
+  {
+    "child": "11",
+    "support": "02",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": -54.94931133238046,
+      "median_gap_mm": -36.525635441489214,
+      "max_gap_mm": -36.14570877825747,
+      "samples": 113
+    }
+  },
+  {
+    "child": "12",
+    "support": "02",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": -54.98159498018788,
+      "median_gap_mm": -36.547129540307026,
+      "max_gap_mm": -36.1373870087092,
+      "samples": 113
+    }
+  },
+  {
+    "child": "13",
+    "support": "02",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": -54.96014293399304,
+      "median_gap_mm": -36.53264831343324,
+      "max_gap_mm": -36.12115008378251,
+      "samples": 113
+    }
+  }
+]

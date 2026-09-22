@@ -1,7 +1,7 @@
 """Validate the actual deliverable STL bytes, not intermediate meshes."""
 from pathlib import Path
-import trimesh,numpy as np,pymeshlab as ml,json,hashlib
-root=Path(__file__).resolve().parents[1];out=root.parent/'final4';records=[]
+import trimesh,numpy as np,pymeshlab as ml,json,hashlib,sys
+root=Path(__file__).resolve().parents[1];out=root.parent/(sys.argv[1] if len(sys.argv)>1 else 'final4');records=[]
 for p in sorted((out/'stl_montaj').glob('*.stl')):
  m=trimesh.load_mesh(p);_,counts=np.unique(m.edges_sorted,axis=0,return_counts=True)
  ms=ml.MeshSet();ms.load_new_mesh(str(p));ms.apply_filter('compute_selection_by_self_intersections_per_face')
@@ -17,6 +17,7 @@ for p in sorted((out/'stl_montaj').glob('*.stl')):
  assert np.allclose(a.triangles,n.triangles,atol=5e-5),q
  assert abs(n.bounds[0,2])<5e-5,q
  assert n.is_winding_consistent,q
-assert len(records)==26,len(records)
-(root/'reports'/'final_meshes.json').write_text(json.dumps(records,indent=2))
-print('PASS: 26 assembly STL files and 26 translated print copies')
+expected=28 if out.name=='final5' else 26
+assert len(records)==expected,len(records)
+(out/'kontrol_raporu.json').write_text(json.dumps(records,indent=2))
+print('PASS:',expected,'assembly STL files and translated print copies')

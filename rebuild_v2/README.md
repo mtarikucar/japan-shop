@@ -19,3 +19,22 @@ Meshy 7.1 ile bina, taban, tabela, dört fener ve fıçı çeşitleri üretilmi�
 Son üç betik ve son dosyaların kontrolü dışında yeniden üretim, depoya dahil edilmeyen ham GLB/STL dosyalarını gerektirir. Oluşturma için Blender 5.2.1 ve `requirements.txt` içindeki Python paketleri kullanılmıştır.
 
 Sınırlar: dış cephe maketi; iç mekân yoktur, küçük grafikler sadeleştirilmiştir. Sayısal mesh kontrolleri fiziksel baskı denemesinin yerine geçmez. Ayrıntılı kapsam `final4/OKU_BENI.md` dosyasındadır.
+
+## final5: oturmaların düzeltilmesi ve eski saksılar
+
+Bu aşamada yeni API üretimi yapılmaz. `final3` saksıları ve `final4` parçaları kullanılır:
+
+1. `blender -b final4/japan_shop_final.blend --python rebuild_v2/scripts/extract_fit_uv.py`
+2. `python rebuild_v2/scripts/fit_assembly.py`
+3. `python rebuild_v2/scripts/fit_cube_seat.py`
+4. `python rebuild_v2/scripts/clear_barrel_jamb.py`
+5. `blender -b final4/japan_shop_final.blend --python rebuild_v2/scripts/assemble_fitted.py`
+6. `python rebuild_v2/scripts/validate_final.py final5`
+7. `python rebuild_v2/scripts/check_assembly_solids.py`
+8. `python rebuild_v2/scripts/check_contacts.py final5/stl_montaj final5/temas_olcumleri.json`
+9. `blender -b final5/japan_shop_final.blend --python rebuild_v2/scripts/verify_scene.py`
+10. Kayıtlı final5 sahnesiyle `render_scene.py` ve `catalog.py` çalıştırılır; `python rebuild_v2/scripts/package.py final5` paketi doğrulayarak çıkarır.
+
+Geçici UV verileri `fit_cache/` altında yerelde tutulur. Büyük Blender dosyası GitHub sürüm ZIP'inde bulunur; tek dosya boyutu nedeniyle Git deposuna ayrıca eklenmez. Tüm STL parçaları depodadır.
+
+Kontrol, parça başına sağlam mesh yanında gerçek katıların kesişim hacmini ve gerekli bağlantılardaki temas örneklerini de kapsar. Dışa aktarım sırasında birleşim kenarlarındaki 0,0001 mm'den yakın noktalar gerektiğinde birleştirilir. İşaretli ışın mesafeleri kıvrımlı/çıkıntılı yüzeylerde tek başına kesişme ölçüsü değildir; katı kesişim kontrolü ayrıca yapılır.
