@@ -1,0 +1,242 @@
+[
+  {
+    "a": "01a_tabla_sol",
+    "b": "01b_tabla_sag",
+    "overlap_volume_mm3": 3.461647367730154e-16
+  },
+  {
+    "a": "01a_tabla_sol",
+    "b": "03_esik",
+    "overlap_volume_mm3": 2.7390864444575604e-05
+  },
+  {
+    "a": "01a_tabla_sol",
+    "b": "24_paspas_kaldirim",
+    "overlap_volume_mm3": 1.105785819986474e-06
+  },
+  {
+    "a": "01a_tabla_sol",
+    "b": "25_sari_baba",
+    "overlap_volume_mm3": 0.0
+  },
+  {
+    "a": "01a_tabla_sol",
+    "b": "27_sol_saksi_bambu",
+    "overlap_volume_mm3": 4.185149216917519e-06
+  },
+  {
+    "a": "01b_tabla_sag",
+    "b": "03_esik",
+    "overlap_volume_mm3": 3.676945431676523e-05
+  },
+  {
+    "a": "01b_tabla_sag",
+    "b": "24_paspas_kaldirim",
+    "overlap_volume_mm3": 4.128499307406691e-08
+  },
+  {
+    "a": "01b_tabla_sag",
+    "b": "25_sari_baba",
+    "overlap_volume_mm3": 0.0
+  },
+  {
+    "a": "01b_tabla_sag",
+    "b": "28_sag_saksi_akcaagac",
+    "overlap_volume_mm3": 8.0907782644747e-07
+  },
+  {
+    "a": "02a_bina_sol",
+    "b": "02b_bina_sag",
+    "overlap_volume_mm3": 0.0
+  },
+  {
+    "a": "02a_bina_sol",
+    "b": "04_yagami_tabela",
+    "overlap_volume_mm3": 0.0
+  },
+  {
+    "a": "02a_bina_sol",
+    "b": "05_dalga_perde",
+    "overlap_volume_mm3": 2.095702504233956e-05
+  },
+  {
+    "a": "02a_bina_sol",
+    "b": "06_fener_1",
+    "overlap_volume_mm3": 0.0
+  },
+  {
+    "a": "02a_bina_sol",
+    "b": "07_fener_2",
+    "overlap_volume_mm3": 0.0
+  },
+  {
+    "a": "02a_bina_sol",
+    "b": "11_spot_1",
+    "overlap_volume_mm3": 2.2075728036670626e-06
+  },
+  {
+    "a": "02a_bina_sol",
+    "b": "12_spot_2",
+    "overlap_volume_mm3": 4.0265373847656644e-07
+  },
+  {
+    "a": "02a_bina_sol",
+    "b": "15_fici_alt_1",
+    "overlap_volume_mm3": 0.0
+  },
+  {
+    "a": "02a_bina_sol",
+    "b": "16_fici_alt_2",
+    "overlap_volume_mm3": 0.0
+  },
+  {
+    "a": "02a_bina_sol",
+    "b": "17_fici_alt_3",
+    "overlap_volume_mm3": 0.0
+  },
+  {
+    "a": "02a_bina_sol",
+    "b": "18_fici_alt_4",
+    "overlap_volume_mm3": 0.0
+  },
+  {
+    "a": "02a_bina_sol",
+    "b": "19_fici_ust_1",
+    "overlap_volume_mm3": 0.0
+  },
+  {
+    "a": "02a_bina_sol",
+    "b": "20_fici_ust_2",
+    "overlap_volume_mm3": 0.0
+  },
+  {
+    "a": "02a_bina_sol",
+    "b": "21_fici_ust_3",
+    "overlap_volume_mm3": 0.0
+  },
+  {
+    "a": "02a_bina_sol",
+    "b": "22_fici_ust_4",
+    "overlap_volume_mm3": 0.0
+  },
+  {
+    "a": "02a_bina_sol",
+    "b": "23_paspas_esik",
+    "overlap_volume_mm3": 0.0
+  },
+  {
+    "a": "02a_bina_sol",
+    "b": "26_tabela_montaj_destegi",
+    "overlap_volume_mm3": 6.4215147623829786e-06
+  },
+  {
+    "a": "02b_bina_sag",
+    "b": "04_yagami_tabela",
+    "overlap_volume_mm3": 0.0
+  },
+  {
+    "a": "02b_bina_sag",
+    "b": "05_dalga_perde",
+    "overlap_volume_mm3": 5.31617500090114e-05
+  },
+  {
+    "a": "02b_bina_sag",
+    "b": "08_fener_3",
+    "overlap_volume_mm3": 0.0
+  },
+  {
+    "a": "02b_bina_sag",
+    "b": "09_fener_4",
+    "overlap_volume_mm3": 0.0
+  },
+  {
+    "a": "02b_bina_sag",
+    "b": "10_kup_tabela",
+    "overlap_volume_mm3": 1.3079623204825088e-06
+  },
+  {
+    "a": "02b_bina_sag",
+    "b": "12_spot_2",
+    "overlap_volume_mm3": 0.0
+  },
+  {
+    "a": "02b_bina_sag",
+    "b": "13_spot_3",
+    "overlap_volume_mm3": 7.335146260737124e-07
+  },
+  {
+    "a": "02b_bina_sag",
+    "b": "14_menu_standi",
+    "overlap_volume_mm3": 0.0
+  },
+  {
+    "a": "02b_bina_sag",
+    "b": "18_fici_alt_4",
+    "overlap_volume_mm3": 0.0
+  },
+  {
+    "a": "02b_bina_sag",
+    "b": "22_fici_ust_4",
+    "overlap_volume_mm3": 0.0
+  },
+  {
+    "a": "02b_bina_sag",
+    "b": "23_paspas_esik",
+    "overlap_volume_mm3": 0.0
+  },
+  {
+    "a": "02b_bina_sag",
+    "b": "26_tabela_montaj_destegi",
+    "overlap_volume_mm3": 1.790331979848692e-05
+  },
+  {
+    "a": "04_yagami_tabela",
+    "b": "07_fener_2",
+    "overlap_volume_mm3": 0.0
+  },
+  {
+    "a": "04_yagami_tabela",
+    "b": "08_fener_3",
+    "overlap_volume_mm3": 0.0
+  },
+  {
+    "a": "04_yagami_tabela",
+    "b": "26_tabela_montaj_destegi",
+    "overlap_volume_mm3": 3.8277499137112425e-06
+  },
+  {
+    "a": "06_fener_1",
+    "b": "26_tabela_montaj_destegi",
+    "overlap_volume_mm3": 1.1978369824042836e-06
+  },
+  {
+    "a": "07_fener_2",
+    "b": "26_tabela_montaj_destegi",
+    "overlap_volume_mm3": 8.695227955917989e-06
+  },
+  {
+    "a": "08_fener_3",
+    "b": "26_tabela_montaj_destegi",
+    "overlap_volume_mm3": 8.290306650510306e-07
+  },
+  {
+    "a": "09_fener_4",
+    "b": "26_tabela_montaj_destegi",
+    "overlap_volume_mm3": 1.5632743240812042e-06
+  },
+  {
+    "a": "11_spot_1",
+    "b": "26_tabela_montaj_destegi",
+    "overlap_volume_mm3": 7.137440749538371e-09
+  },
+  {
+    "a": "12_spot_2",
+    "b": "26_tabela_montaj_destegi",
+    "overlap_volume_mm3": 5.332785836184821e-10
+  },
+  {
+    "a": "13_spot_3",
+    "b": "26_tabela_montaj_destegi",
+    "overlap_volume_mm3": 7.137440777293946e-09
+  }
+]

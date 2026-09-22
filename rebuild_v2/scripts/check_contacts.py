@@ -2,11 +2,16 @@
 from pathlib import Path
 import trimesh,numpy as np,json,sys
 src=Path(sys.argv[1]) if len(sys.argv)>1 else Path('final4/stl_montaj')
-meshes={p.stem[:2]:trimesh.load_mesh(p) for p in src.glob('*.stl')}
+meshes={p.stem.split('_')[0]:trimesh.load_mesh(p) for p in src.glob('*.stl')}
+# Split parts (01a/01b, 02a/02b) stand in for their original part; each cut face is checked too.
+for k in sorted({k[:2] for k in meshes if len(k)>2}):
+ halves=sorted(h for h in meshes if len(h)>2 and h[:2]==k);meshes[k]=trimesh.util.concatenate([meshes[h] for h in halves])
 # child, support, axis: +Z support below; +Y support behind.
 pairs=[('02','03',2),('03','01',2),('04','26',1),('05','02',1),('26','02',1),('10','02',0),('14','03',2),('23','03',2),('24','01',2),('25','01',2)]+[(f'{i:02}', '03' if i<19 else f'{i-4:02}',2) for i in range(15,23)]+[(f'{i:02}','26',1) for i in range(6,10)]+[(f'{i:02}','02',-2) for i in range(11,14)]
 for i in ['27','28']:
  if i in meshes:pairs.append((i,'01',2))
+for k in ['01','02']:
+ if k+'a' in meshes:pairs.append((k+'b',k+'a',0))
 def gaps(child,parent,axis,step=.5):
  if axis==-2:return gaps(parent,child,2,step)
  a=[i for i in range(3) if i!=axis];lo=np.maximum(child.bounds[0,a],parent.bounds[0,a]);hi=np.minimum(child.bounds[1,a],parent.bounds[1,a])
@@ -30,6 +35,6 @@ if __name__=='__main__':
  for c,p,a in pairs:
   r={'child':c,'support':p,'axis':a,'contact':gaps(meshes[c],meshes[p],a)};records.append(r);print(json.dumps(r),flush=True)
  if len(sys.argv)>2:Path(sys.argv[2]).write_text(json.dumps(records,indent=2))
- if src.parent.name in ('final5','final6'):
+ if src.parent.name in ('final5','final6','final7'):
   assert all(r['contact'] and r['contact']['contact_samples_within_0_025_mm']>=3 for r in records),[r for r in records if not r['contact'] or r['contact']['contact_samples_within_0_025_mm']<3]
   print('PASS: measured seating contacts on every required connection')

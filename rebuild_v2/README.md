@@ -50,3 +50,15 @@ Yeni üretim yapılmaz; final5 dosyaları kullanılır. Pencere katı (Z 198,9�
 5. `python rebuild_v2/scripts/check_contacts.py final6/stl_montaj final6/temas_olcumleri.json`
 6. `blender -b final6/japan_shop_final.blend --python rebuild_v2/scripts/verify_scene.py`
 7. Kayıtlı final6 sahnesiyle `render_scene.py` ve `catalog.py` çalıştırılır; `python rebuild_v2/scripts/package.py final6` hash listesini ve yerel ZIP paketini çıkarır.
+
+## final7: eğik reçine baskı için taban ve binanın bölünmesi
+
+Hedef ELEGOO Saturn 4 Ultra (218,88 × 122,88 × 220 mm). Bölünmemiş taban plakaya sığmaz, bina en fazla ~19° eğilebilir; yarımlar 30° ve 45° eğikte sığar. Kesimler mevcut çizgilere denk gelir (kapı kanatlarının birleşimi, saçak tahta derzi, pencere kasası, bordür derzi). Sağ yarımlara pim, sol yarımlara 0,2 mm boşluklu delik eklenir. Kesim çizgileri ve pim konumları `split_for_tilt.py` içindeki `SPLITS` tablosundadır; bölme işlemi `manifold3d` ile yapılır.
+
+1. `python rebuild_v2/scripts/split_for_tilt.py`
+2. `blender -b final6/japan_shop_final.blend --python rebuild_v2/scripts/split_scene.py`
+3. `python rebuild_v2/scripts/validate_final.py final7`
+4. `python rebuild_v2/scripts/check_assembly_solids.py final7`
+5. `python rebuild_v2/scripts/check_contacts.py final7/stl_montaj final7/temas_olcumleri.json`
+6. `blender -b final7/japan_shop_final.blend --python rebuild_v2/scripts/verify_scene.py`
+7. Kayıtlı final7 sahnesiyle `render_scene.py`, `catalog.py` ve `render_split.py` çalıştırılır; `python rebuild_v2/scripts/package.py final7` hash listesini ve yerel ZIP paketini çıkarır.

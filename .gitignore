@@ -60,3 +60,14 @@
 !/final6/stl_montaj/
 !/final6/stl_baski/*.stl
 !/final6/stl_montaj/*.stl
+
+!/final7/
+/final7/*
+!/final7/*.md
+!/final7/*.json
+!/final7/*.png
+!/final7/*.sha256
+!/final7/stl_baski/
+!/final7/stl_montaj/
+!/final7/stl_baski/*.stl
+!/final7/stl_montaj/*.stl

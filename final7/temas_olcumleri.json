@@ -1,0 +1,379 @@
+[
+  {
+    "child": "02",
+    "support": "03",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": 0.0,
+      "median_gap_mm": 0.0,
+      "max_gap_mm": 188.1476257103398,
+      "samples": 26134,
+      "contact_samples_within_0_025_mm": 17986,
+      "closest_sample_mm": 0.0
+    }
+  },
+  {
+    "child": "03",
+    "support": "01",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": -1.6236266464630944e-06,
+      "median_gap_mm": 0.0,
+      "max_gap_mm": 3.607116584092296e-06,
+      "samples": 31020,
+      "contact_samples_within_0_025_mm": 31020,
+      "closest_sample_mm": 0.0
+    }
+  },
+  {
+    "child": "04",
+    "support": "26",
+    "axis": 1,
+    "contact": {
+      "min_gap_mm": -5.45926337660433,
+      "median_gap_mm": 0.0,
+      "max_gap_mm": 6.299155437261561e-07,
+      "samples": 9901,
+      "contact_samples_within_0_025_mm": 9735,
+      "closest_sample_mm": 0.0
+    }
+  },
+  {
+    "child": "05",
+    "support": "02",
+    "axis": 1,
+    "contact": {
+      "min_gap_mm": -4.805839040789191,
+      "median_gap_mm": 0.0,
+      "max_gap_mm": 3.491826441504031e-05,
+      "samples": 6126,
+      "contact_samples_within_0_025_mm": 5936,
+      "closest_sample_mm": 0.0
+    }
+  },
+  {
+    "child": "26",
+    "support": "02",
+    "axis": 1,
+    "contact": {
+      "min_gap_mm": -8.705728096300117,
+      "median_gap_mm": -3.552713678800501e-15,
+      "max_gap_mm": 3.454367639932343e-06,
+      "samples": 8044,
+      "contact_samples_within_0_025_mm": 5035,
+      "closest_sample_mm": 0.0
+    }
+  },
+  {
+    "child": "10",
+    "support": "02",
+    "axis": 0,
+    "contact": {
+      "min_gap_mm": -2.009452288120883e-06,
+      "median_gap_mm": 2.0339586766769813,
+      "max_gap_mm": 181.16542827155743,
+      "samples": 1738,
+      "contact_samples_within_0_025_mm": 354,
+      "closest_sample_mm": 0.0
+    }
+  },
+  {
+    "child": "14",
+    "support": "03",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": 0.0,
+      "median_gap_mm": 0.0,
+      "max_gap_mm": 55.04077825106749,
+      "samples": 1368,
+      "contact_samples_within_0_025_mm": 1020,
+      "closest_sample_mm": 0.0
+    }
+  },
+  {
+    "child": "23",
+    "support": "03",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": 0.0,
+      "median_gap_mm": 0.0,
+      "max_gap_mm": 0.0,
+      "samples": 4560,
+      "contact_samples_within_0_025_mm": 4560,
+      "closest_sample_mm": 0.0
+    }
+  },
+  {
+    "child": "24",
+    "support": "01",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": -2.406549205247188e-06,
+      "median_gap_mm": 0.0,
+      "max_gap_mm": 0.25247120589316197,
+      "samples": 6045,
+      "contact_samples_within_0_025_mm": 6015,
+      "closest_sample_mm": 0.0
+    }
+  },
+  {
+    "child": "25",
+    "support": "01",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": 0.0,
+      "median_gap_mm": 0.0003337860107421875,
+      "max_gap_mm": 0.0004177093505859375,
+      "samples": 490,
+      "contact_samples_within_0_025_mm": 490,
+      "closest_sample_mm": 0.0
+    }
+  },
+  {
+    "child": "15",
+    "support": "03",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": 0.0,
+      "median_gap_mm": 0.0,
+      "max_gap_mm": 5.966755617738627,
+      "samples": 634,
+      "contact_samples_within_0_025_mm": 425,
+      "closest_sample_mm": 0.0
+    }
+  },
+  {
+    "child": "16",
+    "support": "03",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": 0.0,
+      "median_gap_mm": 0.0,
+      "max_gap_mm": 11.66521135515714,
+      "samples": 615,
+      "contact_samples_within_0_025_mm": 365,
+      "closest_sample_mm": 0.0
+    }
+  },
+  {
+    "child": "17",
+    "support": "03",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": 0.0,
+      "median_gap_mm": 0.0,
+      "max_gap_mm": 11.665196064327361,
+      "samples": 615,
+      "contact_samples_within_0_025_mm": 365,
+      "closest_sample_mm": 0.0
+    }
+  },
+  {
+    "child": "18",
+    "support": "03",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": 0.0,
+      "median_gap_mm": 0.0,
+      "max_gap_mm": 5.966727595408507,
+      "samples": 634,
+      "contact_samples_within_0_025_mm": 425,
+      "closest_sample_mm": 0.0
+    }
+  },
+  {
+    "child": "19",
+    "support": "15",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": -3.814697265625e-06,
+      "median_gap_mm": 0.047822590160642164,
+      "max_gap_mm": 19.625055513125027,
+      "samples": 615,
+      "contact_samples_within_0_025_mm": 284,
+      "closest_sample_mm": 3.814697265625e-06
+    }
+  },
+  {
+    "child": "20",
+    "support": "16",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": -3.814697265625e-06,
+      "median_gap_mm": -3.814697265625e-06,
+      "max_gap_mm": 13.860301796923682,
+      "samples": 615,
+      "contact_samples_within_0_025_mm": 324,
+      "closest_sample_mm": 3.814697265625e-06
+    }
+  },
+  {
+    "child": "21",
+    "support": "17",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": -3.814697265625e-06,
+      "median_gap_mm": -3.814697265625e-06,
+      "max_gap_mm": 10.877590496793712,
+      "samples": 614,
+      "contact_samples_within_0_025_mm": 324,
+      "closest_sample_mm": 3.814697265625e-06
+    }
+  },
+  {
+    "child": "22",
+    "support": "18",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": -3.814697265625e-06,
+      "median_gap_mm": 0.04782269192966737,
+      "max_gap_mm": 19.625033559223038,
+      "samples": 615,
+      "contact_samples_within_0_025_mm": 284,
+      "closest_sample_mm": 3.814697265625e-06
+    }
+  },
+  {
+    "child": "06",
+    "support": "26",
+    "axis": 1,
+    "contact": {
+      "min_gap_mm": -1.1273944373613176e-06,
+      "median_gap_mm": 1.2164913520962273e-07,
+      "max_gap_mm": 1.6271728658541171,
+      "samples": 50,
+      "contact_samples_within_0_025_mm": 29,
+      "closest_sample_mm": 0.0
+    }
+  },
+  {
+    "child": "07",
+    "support": "26",
+    "axis": 1,
+    "contact": {
+      "min_gap_mm": -0.9467391498893303,
+      "median_gap_mm": 0.3436516462730381,
+      "max_gap_mm": 1.0788067532412384,
+      "samples": 42,
+      "contact_samples_within_0_025_mm": 17,
+      "closest_sample_mm": 0.0
+    }
+  },
+  {
+    "child": "08",
+    "support": "26",
+    "axis": 1,
+    "contact": {
+      "min_gap_mm": -2.87917298891216e-07,
+      "median_gap_mm": 0.5901433328652921,
+      "max_gap_mm": 0.87392479200496,
+      "samples": 34,
+      "contact_samples_within_0_025_mm": 16,
+      "closest_sample_mm": 0.0
+    }
+  },
+  {
+    "child": "09",
+    "support": "26",
+    "axis": 1,
+    "contact": {
+      "min_gap_mm": -1.8846773919278803e-07,
+      "median_gap_mm": 0.46842175555108057,
+      "max_gap_mm": 1.1491278142376018,
+      "samples": 37,
+      "contact_samples_within_0_025_mm": 16,
+      "closest_sample_mm": 1.2243473790363169e-08
+    }
+  },
+  {
+    "child": "11",
+    "support": "02",
+    "axis": -2,
+    "contact": {
+      "min_gap_mm": -4.825356256787927e-06,
+      "median_gap_mm": 0.4387771721300737,
+      "max_gap_mm": 2.4251183730892762,
+      "samples": 106,
+      "contact_samples_within_0_025_mm": 32,
+      "closest_sample_mm": 0.0
+    }
+  },
+  {
+    "child": "12",
+    "support": "02",
+    "axis": -2,
+    "contact": {
+      "min_gap_mm": -2.2037858684598177e-06,
+      "median_gap_mm": 0.43114932231819125,
+      "max_gap_mm": 2.41898262150184,
+      "samples": 106,
+      "contact_samples_within_0_025_mm": 32,
+      "closest_sample_mm": 0.0
+    }
+  },
+  {
+    "child": "13",
+    "support": "02",
+    "axis": -2,
+    "contact": {
+      "min_gap_mm": -4.696661562775262e-06,
+      "median_gap_mm": 0.45736263296531376,
+      "max_gap_mm": 2.4725544338513146,
+      "samples": 106,
+      "contact_samples_within_0_025_mm": 32,
+      "closest_sample_mm": 0.0
+    }
+  },
+  {
+    "child": "27",
+    "support": "01",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": -3.999947444916465,
+      "median_gap_mm": 0.0,
+      "max_gap_mm": 5.80357374868899,
+      "samples": 4670,
+      "contact_samples_within_0_025_mm": 3854,
+      "closest_sample_mm": 0.0
+    }
+  },
+  {
+    "child": "28",
+    "support": "01",
+    "axis": 2,
+    "contact": {
+      "min_gap_mm": -3.2272099481645e-07,
+      "median_gap_mm": 0.0,
+      "max_gap_mm": 40.204739035734896,
+      "samples": 2842,
+      "contact_samples_within_0_025_mm": 2701,
+      "closest_sample_mm": 0.0
+    }
+  },
+  {
+    "child": "01b",
+    "support": "01a",
+    "axis": 0,
+    "contact": {
+      "min_gap_mm": 0.0,
+      "median_gap_mm": 0.0,
+      "max_gap_mm": 240.47622798802982,
+      "samples": 6391,
+      "contact_samples_within_0_025_mm": 6211,
+      "closest_sample_mm": 0.0
+    }
+  },
+  {
+    "child": "02b",
+    "support": "02a",
+    "axis": 0,
+    "contact": {
+      "min_gap_mm": 0.0,
+      "median_gap_mm": 0.0,
+      "max_gap_mm": 166.17518093073292,
+      "samples": 21797,
+      "contact_samples_within_0_025_mm": 19098,
+      "closest_sample_mm": 0.0
+    }
+  }
+]
