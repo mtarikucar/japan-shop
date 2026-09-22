@@ -1,30 +1,26 @@
-# Japan Shop
+# Japan Shop — Yagami
 
-Japon dükkânı maketinin onarılmış 12 STL parçası `final3/` klasöründedir. Birimler milimetre; toplam yükseklik yaklaşık 240 mm. +X sağ, -Y ön cephe, +Z yukarı.
+Güncel model seti **[final4](final4/OKU_BENI.md)** klasöründedir. Kullanıcının verdiği izometrik referansa göre yeniden hazırlanmış, toplam 24 cm yüksekliğinde ve 26 ayrı parçadan oluşan dış cephe maketidir.
 
-- [Blender dosyası](final3/japan_shop_repaired.blend)
-- [Ölçüler](final3/BOYUTLAR.txt)
-- [Güncel yüzey onarımı ve kontrol raporu](validation/SURFACE_REPAIR_REPORT.md)
-- [Tüm parçaların önizlemesi](validation/previews/front.jpg)
-- [Bina: önce / sonra](validation/previews/building_comparison.jpg)
+- [Baskı için ayrı STL dosyaları](final4/stl_baski)
+- [Montaj koordinatlarında STL dosyaları](final4/stl_montaj)
+- [Dokulu Blender sahnesi](final4/japan_shop_final.blend)
+- [Montaj ve baskı açıklamaları](final4/OKU_BENI.md)
+- [Parça ölçüleri](final4/parcalar.json)
+- [Geometri kontrol sonuçları](final4/kontrol_raporu.json)
 
-## Güncel STL önizlemesi
+![Birleşik model](final4/izometrik.png)
 
-Bunlar onarılmış geometriden Blender'da alınan görüntülerdir. Renkler parçaları ayırt etmek içindir; STL dosyaları doku içermez.
+![Dokudan bağımsız geometri](final4/mesh_kontrol.png)
 
-![Onarılmış model](final3/onarilmis_on.png)
-![Arka görünüm](final3/onarilmis_arka.png)
-![Yeniden oluşturulan tabla](final3/onarilmis_tabla.png)
+STL dosyaları renk/doku içermez. Bina kapalı cephe olarak modellenmiştir; iç mekân mobilyaları dahil değildir. Küçük grafiklerde sadeleştirmeler vardır. Ayrıntılı kapsam ve fiziksel baskı notları [paket açıklamasında](final4/OKU_BENI.md) bulunur.
 
-Önceki dokulu referans görselleri `birlesik_34.png`, `birlesik_on.png` ve `menu_yakin.png` adlarıyla korunmuştur. Eski STL sürümü Git geçmişindeki `39bd9b4` commit'indedir.
-
-## Kontrolü tekrar çalıştırma
-
-Kapalı yüzey, tek gövde, yüz yönleri ve yüzey kesişmeleri kontrol edilir:
+## Kontrolleri tekrar çalıştırma
 
 ```sh
-python -m pip install -r validation/requirements.txt
-python validation/validate_meshes.py
+python -m pip install -r rebuild_v2/requirements.txt
+python rebuild_v2/scripts/validate_final.py
+blender -b final4/japan_shop_final.blend --python rebuild_v2/scripts/verify_scene.py
 ```
 
-22 Eylül yüzey onarımında 12 parça ayrı ayrı incelendi; 8 parça düzeltildi. Bozuk yüzeyleri yeniden kurulan bina ve menü standının ölçüleri değişti; güncel ölçüler ve ayrıntı değişiklikleri rapordadır. Önceki onarılmış sürüm `ae6af10` commit’indedir.
+Üretim referansları ve yeniden oluşturma betikleri `rebuild_v2/` altındadır. Ham servis yanıtları, erişim anahtarları ve geçici dosyalar depoya dahil değildir. Önceki `final3` seti geçmiş sürüm olarak korunmuştur.

@@ -1,0 +1,496 @@
+[
+  {
+    "name": "01_tabla.stl",
+    "triangles": 155142,
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "components": 1,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "self_intersection_faces": 0,
+    "dimensions_mm": [
+      243.47825622558594,
+      130.43477630615234,
+      19.13043212890625
+    ],
+    "sha256": "fd717f197fd337d33c5b8cdc8cb3d6cc14439dd26a430d9907936275dc928b80"
+  },
+  {
+    "name": "02_bina.stl",
+    "triangles": 301582,
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "components": 1,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "self_intersection_faces": 0,
+    "dimensions_mm": [
+      182.6086883544922,
+      60.86955642700195,
+      217.39129066467285
+    ],
+    "sha256": "87d138745cac2a38e0e999f5f71f0226e076375e2c0f52097444924eaaa08cf7"
+  },
+  {
+    "name": "03_esik.stl",
+    "triangles": 12,
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "components": 1,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "self_intersection_faces": 0,
+    "dimensions_mm": [
+      187.82608032226562,
+      70.43478059768677,
+      6.956521034240723
+    ],
+    "sha256": "e4e51e2f9fad02b551e74c3ccc84ab1185eacbe5a23dd5cd4108a542881dae4b"
+  },
+  {
+    "name": "04_yagami_tabela.stl",
+    "triangles": 199938,
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "components": 1,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "self_intersection_faces": 0,
+    "dimensions_mm": [
+      92.17391204833984,
+      4.347825527191162,
+      29.565216064453125
+    ],
+    "sha256": "a9d84614c6cd782b6f5ece24f922de246239c51ac81a9fdb30c937a20b40c4c8"
+  },
+  {
+    "name": "05_dalga_perde.stl",
+    "triangles": 12482,
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "components": 1,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "self_intersection_faces": 0,
+    "dimensions_mm": [
+      158.34781646728516,
+      4.7826080322265625,
+      13.913047790527344
+    ],
+    "sha256": "4249b178c405e326abde6e57973ef908f79285dc2e8e5d83196fe6e6fd91cc49"
+  },
+  {
+    "name": "06_fener_1.stl",
+    "triangles": 99208,
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "components": 1,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "self_intersection_faces": 0,
+    "dimensions_mm": [
+      15.652168273925781,
+      15.652172863483429,
+      38.26087188720703
+    ],
+    "sha256": "adc1bec44848686ae000605e3eb643ec8ebadbc0eee3aa76e70001d33a03b776"
+  },
+  {
+    "name": "07_fener_2.stl",
+    "triangles": 103076,
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "components": 1,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "self_intersection_faces": 0,
+    "dimensions_mm": [
+      15.652175903320312,
+      15.652172863483429,
+      38.26087188720703
+    ],
+    "sha256": "a212a47b7a8901f51b7b397767caf8160926aa92d241d5ac9353ea728ffe34b4"
+  },
+  {
+    "name": "08_fener_3.stl",
+    "triangles": 100604,
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "components": 1,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "self_intersection_faces": 0,
+    "dimensions_mm": [
+      15.652175903320312,
+      15.652172863483429,
+      38.26087188720703
+    ],
+    "sha256": "1cf4562bfe97a608c43c9d54e876ef4472492ac26b0021abee9c698b11f0b1d1"
+  },
+  {
+    "name": "09_fener_4.stl",
+    "triangles": 97686,
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "components": 1,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "self_intersection_faces": 0,
+    "dimensions_mm": [
+      15.652168273925781,
+      15.652174770832062,
+      38.26087188720703
+    ],
+    "sha256": "eaf670bee0ed457b1315d92452f457014579a934efb326f6e44adb9c32383038"
+  },
+  {
+    "name": "10_kup_tabela.stl",
+    "triangles": 3160,
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "components": 1,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "self_intersection_faces": 0,
+    "dimensions_mm": [
+      32.173912048339844,
+      30.434781074523926,
+      33.043487548828125
+    ],
+    "sha256": "2fbeb7ea85e54f91b285b3adafd866d806a28c03a452e20f995fa50105560e4c"
+  },
+  {
+    "name": "11_spot_1.stl",
+    "triangles": 764,
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "components": 1,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "self_intersection_faces": 0,
+    "dimensions_mm": [
+      6.434783935546875,
+      6.434782147407532,
+      8.608688354492188
+    ],
+    "sha256": "1e00b13e9a5fde91c89a3c00c5060ee9ad05dc9c810e8139e961e9d3e1bf808c"
+  },
+  {
+    "name": "12_spot_2.stl",
+    "triangles": 764,
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "components": 1,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "self_intersection_faces": 0,
+    "dimensions_mm": [
+      6.434782147407532,
+      6.434782147407532,
+      8.608688354492188
+    ],
+    "sha256": "abdc90414c3be95b2fabe591dfe52e82f3463e757b0dbfc6a9ac597189a473e0"
+  },
+  {
+    "name": "13_spot_3.stl",
+    "triangles": 764,
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "components": 1,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "self_intersection_faces": 0,
+    "dimensions_mm": [
+      6.434783935546875,
+      6.434782147407532,
+      8.608688354492188
+    ],
+    "sha256": "b13cc0a85dd45dd21595781bcfe2da9ad4e33c15d5f55c7f64bb8e699fb822c2"
+  },
+  {
+    "name": "14_menu_standi.stl",
+    "triangles": 1328,
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "components": 1,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "self_intersection_faces": 0,
+    "dimensions_mm": [
+      22.60869598388672,
+      15.946672439575195,
+      57.71657752990723
+    ],
+    "sha256": "078af52f6eebffd3f094676e2c686105aa919e9d4fe60077441a1204304d4415"
+  },
+  {
+    "name": "15_fici_alt_1.stl",
+    "triangles": 101920,
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "components": 1,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "self_intersection_faces": 0,
+    "dimensions_mm": [
+      14.782608032226562,
+      14.347825288772583,
+      16.521738052368164
+    ],
+    "sha256": "73924cb161ac976aab5180a4ed6416fd164e20afbc0d57b7481f9ca41234dfd1"
+  },
+  {
+    "name": "16_fici_alt_2.stl",
+    "triangles": 103672,
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "components": 1,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "self_intersection_faces": 0,
+    "dimensions_mm": [
+      14.782611846923828,
+      14.347825288772583,
+      16.521738052368164
+    ],
+    "sha256": "fed0584ffbe317c46d936e42b20bc40649dd7011378be6a72a90ceb2d4cbfe8a"
+  },
+  {
+    "name": "17_fici_alt_3.stl",
+    "triangles": 103672,
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "components": 1,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "self_intersection_faces": 0,
+    "dimensions_mm": [
+      14.782608032226562,
+      14.347825288772583,
+      16.521738052368164
+    ],
+    "sha256": "3eabca9304c3ce727fbb72fc06baabc72158592baa9249731ac9a9be1784f4e0"
+  },
+  {
+    "name": "18_fici_alt_4.stl",
+    "triangles": 101920,
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "components": 1,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "self_intersection_faces": 0,
+    "dimensions_mm": [
+      14.782608032226562,
+      14.347825288772583,
+      16.521738052368164
+    ],
+    "sha256": "338cefd4194e759af7aa13cc2c86279734dc41e351e54980a9dff7be4700a1a6"
+  },
+  {
+    "name": "19_fici_ust_1.stl",
+    "triangles": 103672,
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "components": 1,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "self_intersection_faces": 0,
+    "dimensions_mm": [
+      14.782608032226562,
+      14.347825288772583,
+      16.521739959716797
+    ],
+    "sha256": "c3eb2dd8d46af4b34bed9ce9e6886e5386f1aff725ab4086c27e4a65f0dbc336"
+  },
+  {
+    "name": "20_fici_ust_2.stl",
+    "triangles": 101920,
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "components": 1,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "self_intersection_faces": 0,
+    "dimensions_mm": [
+      14.782611846923828,
+      14.347825288772583,
+      16.521739959716797
+    ],
+    "sha256": "e8a593f1b2f8436a7c91fc043f13e9d68979130f368b5f37d97d833222760b0f"
+  },
+  {
+    "name": "21_fici_ust_3.stl",
+    "triangles": 103280,
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "components": 1,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "self_intersection_faces": 0,
+    "dimensions_mm": [
+      14.782608032226562,
+      14.347825288772583,
+      16.521739959716797
+    ],
+    "sha256": "48009939fc49136a6fd1bc31f227aebc94e46134a475a5e7d5fd9794194fff05"
+  },
+  {
+    "name": "22_fici_ust_4.stl",
+    "triangles": 103672,
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "components": 1,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "self_intersection_faces": 0,
+    "dimensions_mm": [
+      14.782608032226562,
+      14.347825288772583,
+      16.521739959716797
+    ],
+    "sha256": "c217118b9a281f0fb6bf5bb4feff6df1de21fa3e47ae71c4626a033fd6f9886e"
+  },
+  {
+    "name": "23_paspas_esik.stl",
+    "triangles": 876,
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "components": 1,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "self_intersection_faces": 0,
+    "dimensions_mm": [
+      56.521738052368164,
+      19.999999046325684,
+      1.2608718872070312
+    ],
+    "sha256": "69df121b082623b237098d02dd1ebfa29855b5e9f1247295fc26be96c54f3909"
+  },
+  {
+    "name": "24_paspas_kaldirim.stl",
+    "triangles": 1196,
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "components": 1,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "self_intersection_faces": 0,
+    "dimensions_mm": [
+      77.39130020141602,
+      19.1304349899292,
+      1.2608709335327148
+    ],
+    "sha256": "d7e52611bed3c4aff989e5c4a479c90c7b6e4ff38840cd09280c2228fc7a2959"
+  },
+  {
+    "name": "25_sari_baba.stl",
+    "triangles": 580,
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "components": 1,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "self_intersection_faces": 0,
+    "dimensions_mm": [
+      24.347824454307556,
+      4.7826080322265625,
+      19.1304349899292
+    ],
+    "sha256": "7b7b5b5a351fb9bb2062cb996e89c193528b9808079babd19eeb90f9ea0c6690"
+  },
+  {
+    "name": "26_tabela_montaj_destegi.stl",
+    "triangles": 36,
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "components": 1,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "self_intersection_faces": 0,
+    "dimensions_mm": [
+      154.78260803222656,
+      9.913042068481445,
+      28.695648193359375
+    ],
+    "sha256": "c71da2b2f76057585df8817223b47c23065a2492eff606bad8d02063bbb19a71"
+  }
+]

@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-22",
+  "reference": "references/master.png",
+  "jobs": [
+    {
+      "asset": "barrel_blue",
+      "task_id": "01a0c80e-4e17-754d-a43e-67ca3ea6e26d",
+      "status": "SUCCEEDED",
+      "credits": 35,
+      "model": "meshy-7.1",
+      "resolution": "4k"
+    },
+    {
+      "asset": "barrel_red",
+      "task_id": "01a0c80e-59e7-75de-a251-27eb85635f16",
+      "status": "SUCCEEDED",
+      "credits": 35,
+      "model": "meshy-7.1",
+      "resolution": "4k"
+    },
+    {
+      "asset": "barrel_sun",
+      "task_id": "01a0c80e-423b-725a-8bf1-ed3745d42116",
+      "status": "SUCCEEDED",
+      "credits": 35,
+      "model": "meshy-7.1",
+      "resolution": "4k"
+    },
+    {
+      "asset": "barrel",
+      "task_id": "01a0c7fc-86f3-7723-9dca-9c295d009b3c",
+      "status": "SUCCEEDED",
+      "credits": 35,
+      "model": "meshy-7.1",
+      "resolution": "4k"
+    },
+    {
+      "asset": "base",
+      "task_id": "01a0c7f9-1148-70de-8e75-6a8cd6ed326b",
+      "status": "SUCCEEDED",
+      "credits": 35,
+      "model": "meshy-7.1",
+      "resolution": "4k"
+    },
+    {
+      "asset": "building",
+      "task_id": "01a0c7f8-fa77-734e-804d-e13be2393886",
+      "status": "SUCCEEDED",
+      "credits": 35,
+      "model": "meshy-7.1",
+      "resolution": "4k"
+    },
+    {
+      "asset": "lantern1",
+      "task_id": "01a0c7ff-6995-75ad-937f-d21a823d2a1e",
+      "status": "SUCCEEDED",
+      "credits": 35,
+      "model": "meshy-7.1",
+      "resolution": "4k"
+    },
+    {
+      "asset": "lantern2",
+      "task_id": "01a0c7ff-7333-72c7-90da-89a6127ce74a",
+      "status": "SUCCEEDED",
+      "credits": 35,
+      "model": "meshy-7.1",
+      "resolution": "4k"
+    },
+    {
+      "asset": "lantern3",
+      "task_id": "01a0c7ff-7d54-74e3-9047-d53167380ee8",
+      "status": "SUCCEEDED",
+      "credits": 35,
+      "model": "meshy-7.1",
+      "resolution": "4k"
+    },
+    {
+      "asset": "lantern4",
+      "task_id": "01a0c7ff-8799-7372-b8bb-680415e139ed",
+      "status": "SUCCEEDED",
+      "credits": 35,
+      "model": "meshy-7.1",
+      "resolution": "4k"
+    },
+    {
+      "asset": "sign",
+      "task_id": "01a0c7f9-062e-7453-927f-28f37f932020",
+      "status": "SUCCEEDED",
+      "credits": 35,
+      "model": "meshy-7.1",
+      "resolution": "4k"
+    }
+  ],
+  "credits_used": 385,
+  "balance_after": 1855,
+  "unused_generated_asset": "barrel (proportions rejected)",
+  "delivered_barrel_variants": [
+    "barrel_red",
+    "barrel_blue",
+    "barrel_sun"
+  ]
+}
