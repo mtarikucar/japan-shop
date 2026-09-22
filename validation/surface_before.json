@@ -1,0 +1,374 @@
+[
+  {
+    "name": "01_tabla.stl",
+    "faces": 164,
+    "watertight": true,
+    "winding": true,
+    "volume": 633657.510753699,
+    "bounds": [
+      [
+        -135.70889282226562,
+        -72.66987609863281,
+        0.0
+      ],
+      [
+        124.72281646728516,
+        72.66987609863281,
+        18.0
+      ]
+    ],
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate": 0,
+    "duplicates": 0,
+    "intersection_faces": 0,
+    "components": [
+      {
+        "faces": 164,
+        "volume": 633657.510753699,
+        "watertight": true
+      }
+    ]
+  },
+  {
+    "name": "02_bina.stl",
+    "faces": 41514,
+    "watertight": true,
+    "winding": true,
+    "volume": 2226124.4871880584,
+    "bounds": [
+      [
+        -116.06138610839844,
+        -21.7994327545166,
+        17.9660701751709
+      ],
+      [
+        111.69552612304688,
+        62.74916076660156,
+        240.0
+      ]
+    ],
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate": 0,
+    "duplicates": 0,
+    "intersection_faces": 0,
+    "components": [
+      {
+        "faces": 41514,
+        "volume": 2226124.4871880584,
+        "watertight": true
+      }
+    ]
+  },
+  {
+    "name": "03_ficilar.stl",
+    "faces": 100248,
+    "watertight": true,
+    "winding": true,
+    "volume": 25415.104547623796,
+    "bounds": [
+      [
+        -94.59099578857422,
+        -16.390140533447266,
+        18.0
+      ],
+      [
+        -25.999000549316406,
+        6.900139808654785,
+        42.481353759765625
+      ]
+    ],
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate": 0,
+    "duplicates": 0,
+    "intersection_faces": 0,
+    "components": [
+      {
+        "faces": 100248,
+        "volume": 25415.104547623796,
+        "watertight": true
+      }
+    ]
+  },
+  {
+    "name": "03_ficilar_ust.stl",
+    "faces": 100248,
+    "watertight": true,
+    "winding": true,
+    "volume": 25415.10041752474,
+    "bounds": [
+      [
+        -94.59099578857422,
+        -14.390140533447266,
+        41.991729736328125
+      ],
+      [
+        -25.999000549316406,
+        8.900140762329102,
+        66.47308349609375
+      ]
+    ],
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate": 0,
+    "duplicates": 0,
+    "intersection_faces": 0,
+    "components": [
+      {
+        "faces": 100248,
+        "volume": 25415.10041752474,
+        "watertight": true
+      }
+    ]
+  },
+  {
+    "name": "04_sol_saksi_bambu.stl",
+    "faces": 979250,
+    "watertight": true,
+    "winding": true,
+    "volume": 18611.314552152842,
+    "bounds": [
+      [
+        -139.92417907714844,
+        -14.74422836303711,
+        18.0
+      ],
+      [
+        -100.9568862915039,
+        59.35004425048828,
+        106.802978515625
+      ]
+    ],
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate": 0,
+    "duplicates": 0,
+    "intersection_faces": 51524,
+    "components": [
+      {
+        "faces": 979250,
+        "volume": 18611.314552152842,
+        "watertight": true
+      }
+    ]
+  },
+  {
+    "name": "05_sag_saksi_akcaagac.stl",
+    "faces": 890888,
+    "watertight": true,
+    "winding": true,
+    "volume": 30541.88953710841,
+    "bounds": [
+      [
+        83.29432678222656,
+        -49.58383560180664,
+        18.0
+      ],
+      [
+        136.2933807373047,
+        24.471450805664062,
+        111.99372100830078
+      ]
+    ],
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate": 0,
+    "duplicates": 0,
+    "intersection_faces": 24691,
+    "components": [
+      {
+        "faces": 890888,
+        "volume": 30541.88953710841,
+        "watertight": true
+      }
+    ]
+  },
+  {
+    "name": "06_fener_sol_1.stl",
+    "faces": 99924,
+    "watertight": true,
+    "winding": true,
+    "volume": 9117.289746063218,
+    "bounds": [
+      [
+        -89.31723022460938,
+        -5.989573001861572,
+        102.67019653320312
+      ],
+      [
+        -70.15277099609375,
+        13.039571762084961,
+        148.6199951171875
+      ]
+    ],
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate": 0,
+    "duplicates": 0,
+    "intersection_faces": 0,
+    "components": [
+      {
+        "faces": 99924,
+        "volume": 9117.289746063218,
+        "watertight": true
+      }
+    ]
+  },
+  {
+    "name": "07_fener_sol_2.stl",
+    "faces": 99720,
+    "watertight": true,
+    "winding": true,
+    "volume": 3094.6908296875895,
+    "bounds": [
+      [
+        -58.11530303955078,
+        -1.2158069610595703,
+        112.61299896240234
+      ],
+      [
+        -45.11470031738281,
+        11.695807456970215,
+        149.12001037597656
+      ]
+    ],
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate": 0,
+    "duplicates": 0,
+    "intersection_faces": 0,
+    "components": [
+      {
+        "faces": 99720,
+        "volume": 3094.6908296875895,
+        "watertight": true
+      }
+    ]
+  },
+  {
+    "name": "08_fener_sag.stl",
+    "faces": 100920,
+    "watertight": true,
+    "winding": true,
+    "volume": 9671.977848995482,
+    "bounds": [
+      [
+        54.90461349487305,
+        -8.691198348999023,
+        104.13379669189453
+      ],
+      [
+        74.01538848876953,
+        10.401195526123047,
+        146.4199981689453
+      ]
+    ],
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate": 0,
+    "duplicates": 0,
+    "intersection_faces": 0,
+    "components": [
+      {
+        "faces": 100920,
+        "volume": 9671.977848995482,
+        "watertight": true
+      }
+    ]
+  },
+  {
+    "name": "09_isikli_tabela.stl",
+    "faces": 90724,
+    "watertight": true,
+    "winding": true,
+    "volume": 24864.76017877899,
+    "bounds": [
+      [
+        68.58332824707031,
+        -40.76725387573242,
+        155.36570739746094
+      ],
+      [
+        97.1466293334961,
+        -12.362743377685547,
+        188.26425170898438
+      ]
+    ],
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate": 0,
+    "duplicates": 0,
+    "intersection_faces": 0,
+    "components": [
+      {
+        "faces": 90724,
+        "volume": 24864.76017877899,
+        "watertight": true
+      }
+    ]
+  },
+  {
+    "name": "10_menu_standi.stl",
+    "faces": 92852,
+    "watertight": true,
+    "winding": true,
+    "volume": 1948.744714671456,
+    "bounds": [
+      [
+        46.3258056640625,
+        -21.364391326904297,
+        18.0
+      ],
+      [
+        71.12419891357422,
+        -0.9056090116500854,
+        73.67379760742188
+      ]
+    ],
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate": 0,
+    "duplicates": 0,
+    "intersection_faces": 0,
+    "components": [
+      {
+        "faces": 92852,
+        "volume": 1948.744714671456,
+        "watertight": true
+      }
+    ]
+  },
+  {
+    "name": "11_baba_sari.stl",
+    "faces": 97800,
+    "watertight": true,
+    "winding": true,
+    "volume": 9758.8116442657,
+    "bounds": [
+      [
+        -19.526599884033203,
+        -71.24705505371094,
+        8.211463928222656
+      ],
+      [
+        21.96660041809082,
+        -58.85294723510742,
+        34.569297790527344
+      ]
+    ],
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate": 0,
+    "duplicates": 0,
+    "intersection_faces": 0,
+    "components": [
+      {
+        "faces": 97800,
+        "volume": 9758.8116442657,
+        "watertight": true
+      }
+    ]
+  }
+]

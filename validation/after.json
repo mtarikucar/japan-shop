@@ -1,5 +1,6 @@
 {
   "01_tabla.stl": {
+    "self_intersecting_faces": 0,
     "triangles": 164,
     "watertight": true,
     "consistent_winding": true,
@@ -28,7 +29,8 @@
     "volume_mm3": 633657.510753699
   },
   "02_bina.stl": {
-    "triangles": 41514,
+    "self_intersecting_faces": 0,
+    "triangles": 11572,
     "watertight": true,
     "consistent_winding": true,
     "positive_volume": true,
@@ -38,24 +40,25 @@
     "components": 1,
     "bounds_mm": [
       [
-        -116.06138610839844,
-        -21.7994327545166,
-        17.9660701751709
+        -108.0,
+        -12.0,
+        18.0
       ],
       [
         111.69552612304688,
-        62.74916076660156,
+        61.0,
         240.0
       ]
     ],
     "dimensions_mm": [
-      227.7569122314453,
-      84.54859352111816,
-      222.0339298248291
+      219.69552612304688,
+      73.0,
+      222.0
     ],
-    "volume_mm3": 2226124.4871880584
+    "volume_mm3": 2309025.4697209424
   },
   "03_ficilar.stl": {
+    "self_intersecting_faces": 0,
     "triangles": 100248,
     "watertight": true,
     "consistent_winding": true,
@@ -84,6 +87,7 @@
     "volume_mm3": 25415.104547623796
   },
   "03_ficilar_ust.stl": {
+    "self_intersecting_faces": 0,
     "triangles": 100248,
     "watertight": true,
     "consistent_winding": true,
@@ -112,7 +116,8 @@
     "volume_mm3": 25415.10041752474
   },
   "04_sol_saksi_bambu.stl": {
-    "triangles": 979250,
+    "self_intersecting_faces": 0,
+    "triangles": 850000,
     "watertight": true,
     "consistent_winding": true,
     "positive_volume": true,
@@ -122,25 +127,26 @@
     "components": 1,
     "bounds_mm": [
       [
-        -139.92417907714844,
-        -14.74422836303711,
-        18.0
+        -139.92250061035156,
+        -14.732211112976074,
+        18.000070571899414
       ],
       [
-        -100.9568862915039,
-        59.35004425048828,
-        106.802978515625
+        -100.9662857055664,
+        59.334781646728516,
+        106.7694320678711
       ]
     ],
     "dimensions_mm": [
-      38.96729278564453,
-      74.09427261352539,
-      88.802978515625
+      38.956214904785156,
+      74.06699275970459,
+      88.76936149597168
     ],
-    "volume_mm3": 18611.314552152842
+    "volume_mm3": 18678.930836256874
   },
   "05_sag_saksi_akcaagac.stl": {
-    "triangles": 890888,
+    "self_intersecting_faces": 0,
+    "triangles": 850000,
     "watertight": true,
     "consistent_winding": true,
     "positive_volume": true,
@@ -150,25 +156,26 @@
     "components": 1,
     "bounds_mm": [
       [
-        83.29432678222656,
-        -49.58383560180664,
-        18.0
+        83.30384826660156,
+        -49.57901382446289,
+        18.000062942504883
       ],
       [
-        136.2933807373047,
-        24.471450805664062,
-        111.99372100830078
+        136.22840881347656,
+        24.468143463134766,
+        111.9643325805664
       ]
     ],
     "dimensions_mm": [
-      52.999053955078125,
-      74.0552864074707,
-      93.99372100830078
+      52.924560546875,
+      74.04715728759766,
+      93.96426963806152
     ],
-    "volume_mm3": 30541.88953710841
+    "volume_mm3": 30539.67425368805
   },
   "06_fener_sol_1.stl": {
-    "triangles": 99924,
+    "self_intersecting_faces": 0,
+    "triangles": 80592,
     "watertight": true,
     "consistent_winding": true,
     "positive_volume": true,
@@ -178,25 +185,26 @@
     "components": 1,
     "bounds_mm": [
       [
-        -89.31723022460938,
-        -5.989573001861572,
+        -89.17010498046875,
+        -5.9101033210754395,
         102.67019653320312
       ],
       [
-        -70.15277099609375,
-        13.039571762084961,
+        -70.29989624023438,
+        12.960102081298828,
         148.6199951171875
       ]
     ],
     "dimensions_mm": [
-      19.164459228515625,
-      19.029144763946533,
+      18.870208740234375,
+      18.870205402374268,
       45.949798583984375
     ],
-    "volume_mm3": 9117.289746063218
+    "volume_mm3": 9113.261261823665
   },
   "07_fener_sol_2.stl": {
-    "triangles": 99720,
+    "self_intersecting_faces": 0,
+    "triangles": 78768,
     "watertight": true,
     "consistent_winding": true,
     "positive_volume": true,
@@ -206,24 +214,25 @@
     "components": 1,
     "bounds_mm": [
       [
-        -58.11530303955078,
-        -1.2158069610595703,
+        -58.054718017578125,
+        -1.1997169256210327,
         112.61299896240234
       ],
       [
-        -45.11470031738281,
-        11.695807456970215,
+        -45.17528533935547,
+        11.679717063903809,
         149.12001037597656
       ]
     ],
     "dimensions_mm": [
-      13.000602722167969,
-      12.911614418029785,
+      12.879432678222656,
+      12.879433989524841,
       36.50701141357422
     ],
-    "volume_mm3": 3094.6908296875895
+    "volume_mm3": 3070.78433471718
   },
   "08_fener_sag.stl": {
+    "self_intersecting_faces": 0,
     "triangles": 100920,
     "watertight": true,
     "consistent_winding": true,
@@ -252,7 +261,8 @@
     "volume_mm3": 9671.977848995482
   },
   "09_isikli_tabela.stl": {
-    "triangles": 90724,
+    "self_intersecting_faces": 0,
+    "triangles": 6214,
     "watertight": true,
     "consistent_winding": true,
     "positive_volume": true,
@@ -263,24 +273,25 @@
     "bounds_mm": [
       [
         68.58332824707031,
-        -40.76725387573242,
+        -40.76683807373047,
         155.36570739746094
       ],
       [
         97.1466293334961,
-        -12.362743377685547,
-        188.26425170898438
+        -12.364598274230957,
+        188.0
       ]
     ],
     "dimensions_mm": [
       28.56330108642578,
-      28.404510498046875,
-      32.89854431152344
+      28.40223979949951,
+      32.63429260253906
     ],
-    "volume_mm3": 24864.76017877899
+    "volume_mm3": 24047.386734476502
   },
   "10_menu_standi.stl": {
-    "triangles": 92852,
+    "self_intersecting_faces": 0,
+    "triangles": 2522,
     "watertight": true,
     "consistent_winding": true,
     "positive_volume": true,
@@ -290,25 +301,26 @@
     "components": 1,
     "bounds_mm": [
       [
-        46.3258056640625,
-        -21.364391326904297,
+        46.724998474121094,
+        -19.80832290649414,
         18.0
       ],
       [
-        71.12419891357422,
-        -0.9056090116500854,
-        73.67379760742188
+        70.7249984741211,
+        -2.359560966491699,
+        73.35443878173828
       ]
     ],
     "dimensions_mm": [
-      24.79839324951172,
-      20.45878231525421,
-      55.673797607421875
+      24.0,
+      17.44876194000244,
+      55.35443878173828
     ],
-    "volume_mm3": 1948.744714671456
+    "volume_mm3": 1178.5207540987915
   },
   "11_baba_sari.stl": {
-    "triangles": 97800,
+    "self_intersecting_faces": 0,
+    "triangles": 804,
     "watertight": true,
     "consistent_winding": true,
     "positive_volume": true,
@@ -333,6 +345,6 @@
       12.394107818603516,
       26.357833862304688
     ],
-    "volume_mm3": 9758.8116442657
+    "volume_mm3": 10202.490557281371
   }
 }

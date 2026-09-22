@@ -1,0 +1,14 @@
+{
+  "04_sol_saksi_bambu.stl": {
+    "samples_each_direction": 3000,
+    "mean_mm": 0.012277999639153445,
+    "p95_mm": 0.04505135586793938,
+    "sample_max_mm": 1.6946723986180738
+  },
+  "05_sag_saksi_akcaagac.stl": {
+    "samples_each_direction": 3000,
+    "mean_mm": 0.009404860251838648,
+    "p95_mm": 0.03479212640647614,
+    "sample_max_mm": 0.4023794337496678
+  }
+}

@@ -4,7 +4,9 @@ Japon dükkânı maketinin onarılmış 12 STL parçası `final3/` klasöründed
 
 - [Blender dosyası](final3/japan_shop_repaired.blend)
 - [Ölçüler](final3/BOYUTLAR.txt)
-- [Onarım ve kontrol raporu](validation/REPAIR_REPORT.md)
+- [Güncel yüzey onarımı ve kontrol raporu](validation/SURFACE_REPAIR_REPORT.md)
+- [Tüm parçaların önizlemesi](validation/previews/front.jpg)
+- [Bina: önce / sonra](validation/previews/building_comparison.jpg)
 
 ## Güncel STL önizlemesi
 
@@ -18,8 +20,11 @@ Bunlar onarılmış geometriden Blender'da alınan görüntülerdir. Renkler par
 
 ## Kontrolü tekrar çalıştırma
 
-Python ortamında `numpy`, `trimesh` ve `scipy` kurulu olmalıdır:
+Kapalı yüzey, tek gövde, yüz yönleri ve yüzey kesişmeleri kontrol edilir:
 
 ```sh
+python -m pip install -r validation/requirements.txt
 python validation/validate_meshes.py
 ```
+
+22 Eylül yüzey onarımında 12 parça ayrı ayrı incelendi; 8 parça düzeltildi. Bozuk yüzeyleri yeniden kurulan bina ve menü standının ölçüleri değişti; güncel ölçüler ve ayrıntı değişiklikleri rapordadır. Önceki onarılmış sürüm `ae6af10` commit’indedir.

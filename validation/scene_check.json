@@ -1,0 +1,62 @@
+{
+  "01_tabla.stl": {
+    "matches_stl": true,
+    "triangles": 164,
+    "sha256": "6c008c3b05329e62cf1d44f5a58eea83eb7f75f5e6a79787e25b5615a3341935"
+  },
+  "02_bina.stl": {
+    "matches_stl": true,
+    "triangles": 11572,
+    "sha256": "6dca6d88a0007489f99bca9168c5b85ea12e9704ae05472e077f0aab6b2ddac0"
+  },
+  "03_ficilar.stl": {
+    "matches_stl": true,
+    "triangles": 100248,
+    "sha256": "5f2fc480c0b471bad866b874672fd080b398631d8efef8287099595316461f93"
+  },
+  "03_ficilar_ust.stl": {
+    "matches_stl": true,
+    "triangles": 100248,
+    "sha256": "57a97d220a3a8c14986635937d9bf5c8ea3ac52bbc7b7f4c14b9e0c556bea2ba"
+  },
+  "04_sol_saksi_bambu.stl": {
+    "matches_stl": true,
+    "triangles": 850000,
+    "sha256": "f1f1f1d82bd14fe17ada3d8cfc0fa26aeacb6ecbb568d1ca17ad7dccb7d36873"
+  },
+  "05_sag_saksi_akcaagac.stl": {
+    "matches_stl": true,
+    "triangles": 850000,
+    "sha256": "a648e529c5e7467c222bf908e25afa005f245d9ccc7824c8bc3db55c294c7c1c"
+  },
+  "06_fener_sol_1.stl": {
+    "matches_stl": true,
+    "triangles": 80592,
+    "sha256": "e1f10c67274996b66fe284b6f19f511ee8c27e77887ea16a676a44d6d89e24d1"
+  },
+  "07_fener_sol_2.stl": {
+    "matches_stl": true,
+    "triangles": 78768,
+    "sha256": "a4cd3c129a3a1665e77acb6f75e41328bee1691b04635f7ff0bbcb2af427f405"
+  },
+  "08_fener_sag.stl": {
+    "matches_stl": true,
+    "triangles": 100920,
+    "sha256": "6809ca0ad776142d1e56f45499a7f86d6ce185a09e7b8053bdeda4031e208ca1"
+  },
+  "09_isikli_tabela.stl": {
+    "matches_stl": true,
+    "triangles": 6214,
+    "sha256": "a447e8c93ecda6486a68b1a6818dc403f7e3023eeb509f84bcb1d1231a35c7f5"
+  },
+  "10_menu_standi.stl": {
+    "matches_stl": true,
+    "triangles": 2522,
+    "sha256": "ab4459628e5c098bc370dae84b30b2035a1e9bc2201125a900c7e102c9ffe0fd"
+  },
+  "11_baba_sari.stl": {
+    "matches_stl": true,
+    "triangles": 804,
+    "sha256": "32373042e0c094c0e97aad46b9c89f544324e9daad5b59000c9cc21dac12834f"
+  }
+}
